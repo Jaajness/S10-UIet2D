@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d34e4cf82d4828c4eb7e03bc55bcf342
+guid: 90e39a705382626419417fc8f8c17f83
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,56 +93,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondTimer_0
+      name: panel_glass 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 533
-        width: 466
-        height: 532
+        y: 95
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8545398dfbe22544bba9c19475e628bf
-      internalID: 918076407
+      spriteID: 5815a3e15e241584bb3720b25d351494
+      internalID: -1270972042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FondTimer_1
+      name: panel_glass 1_1
       rect:
         serializedVersion: 2
-        x: 466
-        y: 532.5
-        width: 466.5
-        height: 532.5
+        x: 95
+        y: 95
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +132,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 469897bf9a991e240a4fc33e50333936
-      internalID: 1568704480
+      spriteID: 3668579d007db5243bede3c72558ab46
+      internalID: -19857510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FondTimer_2
+      name: panel_glass 1_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43539dd0cd6fb664da9446dd6eee94f3
+      internalID: -1979098537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_glass 1_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.5
-        width: 466.5
-        height: 532.5
+        y: 0
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 361a3b664b953e5418dc6f4e2aebaa38
-      internalID: 453440828
+      spriteID: 4c7707041f87fb640bea86098fa87ae4
+      internalID: -674055995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FondTimer_3
+      name: panel_glass 1_4
       rect:
         serializedVersion: 2
-        x: 466
-        y: 0.5
-        width: 466.5
-        height: 532.5
+        x: 33
+        y: 33
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,8 +195,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2b0391f60db8146a751ca0a7cd7d39
-      internalID: -1326489902
+      spriteID: 621427e0a0c365842995aaa9e3410356
+      internalID: -1367475600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_glass 1_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6672f9b48a9b1499291ddad273b3f2
+      internalID: 1428120808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_glass 1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba8e9d32bbb22141aab348c3f5ea456
+      internalID: 1536620623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_glass 1_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 33
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113dc01eabbb2a94eb0c6e6838cf9b13
+      internalID: 1646217922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panel_glass 1_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc4f3b2e4a109d46adbec566d6626b0
+      internalID: 1535412834
       vertices: []
       indices: 
       edges: []
@@ -230,10 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FondTimer_0: 918076407
-      FondTimer_1: 1568704480
-      FondTimer_2: 453440828
-      FondTimer_3: -1326489902
+      panel_glass 1_0: -1270972042
+      panel_glass 1_1: -19857510
+      panel_glass 1_2: -1979098537
+      panel_glass 1_3: -674055995
+      panel_glass 1_4: -1367475600
+      panel_glass 1_5: 1428120808
+      panel_glass 1_6: 1536620623
+      panel_glass 1_7: 1646217922
+      panel_glass 1_8: 1535412834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

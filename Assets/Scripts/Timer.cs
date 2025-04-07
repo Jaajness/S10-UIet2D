@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _textTemps;
 
     [SerializeField] private float _tempsEcoule;
-    [SerializeField] private Image _cercle;
+    [SerializeField] private Slider _barre;
 
     private float _tempReset = 10;
     private float _chrono = 0;
@@ -48,7 +48,7 @@ public class Timer : MonoBehaviour
         if (affiche >= 10)
         {
         _chrono = 0;
-         _cercle.fillAmount += 0.025f;
+         _barre.value += 0.025f;
         }
 
         _textTemps.text = string.Format("{0:00}", affiche);
